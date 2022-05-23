@@ -1,0 +1,149 @@
+/*
+Author: Elvis Ansima
+*/
+:root{
+    --primary-color: #ff6200;
+    --secondary-color: #f9f9f9;
+}
+body{
+    overflow-x: hidden;
+}
+#masthead{
+    background-color: #f9f9f9;
+    width:100%;
+    padding:0px 10px;
+}
+
+.brands_set{
+    display: flex;
+    width: 100%;
+}
+
+
+.top-c{
+    height: 60px;
+    background-color: #ff6200;
+}
+
+div.call-us span{
+    padding: 0 5px;
+}
+
+div.call-us > span:nth-child(1), .login-a{
+    color:#be3600;
+    font-family: Bebas;
+}
+div.call-us > span:nth-child(2), .signup-a{
+    color:white;
+    font-family: Bebas;
+}
+
+.login-a,.signup-a{
+    text-transform: uppercase;
+    text-decoration: none;
+}
+
+.login-a:hover,.signup-a:hover, .login-a:active,.signup-a:active{
+    color: white;
+    font-size:18px;
+    transition: color .5s, font-size .7s;
+}
+
+a.telaction{
+    color:inherit;
+    text-decoration: none;
+}
+
+a.telaction:active, a.telaction:hover{
+    color:white;
+    font-size:20px;
+    transition: color .5s, font-size .7s;
+}
+
+li.menu-item>a{
+    text-transform:uppercase;
+}
+
+.current_page_item a{
+    font-weight: bolder;
+    text-decoration: var(--primary-color) solid underline;
+    text-decoration-thickness: 5px;
+    text-underline-offset: 5px;
+}
+
+h1.entry-title{
+    color: var(--primary-color);
+    text-transform: uppercase;
+    font-family: OpenSans;
+}
+
+.wp-block-quote:before{
+    color: #ccc;
+    content: open-quote;
+    font-size: 4em;
+    line-height: 0.1em;
+    margin-right: 0.25em;
+    vertical-align: -0.4em;
+}
+
+.wp-block-quote{
+    
+  background: #f9f9f9;
+  border-left: 10px solid #ccc;
+  margin: 1.5em 10px;
+  padding: 0.5em 10px;
+  quotes: "\201C""\201D""\2018""\2019";
+}
+
+.post-edit-link, .submit{
+    
+    background-color: var(--primary-color) !important;
+    color:white !important;
+    padding: 6px 30px;
+    border-radius: 5px;
+    text-decoration: none;
+    text-transform: uppercase;
+    margin-left:10px;
+}
+
+.post-edit-link:hover{
+    font-size: 18px;
+}
+
+h1,h2,h3,h4,h5,h6{
+    color:var(--primary-color)
+}
+
+.wp-block-latest-posts__list li{
+    left: -45px;
+    position: relative;
+}
+
+.wp-block-latest-comments li{
+    position: relative;
+    left: -27px;
+}
+
+.wp-block-archives-list li{
+    position: relative;
+    left: -60px;
+}
+
+.wp-block-categories-list li{
+    position: relative;
+    left: -60px;
+}
+
+.wp-block-search__input{
+    max-width: 200px;
+}
+
+.site-footer{
+    position: relative;
+    bottom: -30px;
+    background-color: var(--secondary-color);
+}
+
+.cat-links{
+    padding:0px 5px;
+}
